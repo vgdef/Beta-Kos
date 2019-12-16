@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectf2">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/kosbeta"
+        android:label="Beta Kos"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CardViewNusaniweActivity"
+            android:label="CardViewNusaniweActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".DetailActivityPutri"
+            android:label="DetailActivity"
+            android:parentActivityName=".CardViewNusaniweActivity">
+        </activity>
+        <activity android:name=".CardViewSirimauActivity"
+            android:label="CardViewsirimauActivity"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity android:name=".CardViewBagualaActivity"
+            android:label="CardViewBagualaActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".CardViewTelukAmbonActivity"
+            android:label="CardViewTelukAmbonActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".CardViewLeitimurActivity"
+            android:label="CardViewLeitimurActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".BookingActivity"
+            android:label="BookingActivity"
+            android:parentActivityName=".DetailActivityPutri">
+        </activity>
+        <activity android:name=".PembayaranActivity"
+            android:label="PembayaranActivity"
+            android:parentActivityName=".BookingActivity">
+        </activity>
+    </application>
+
+</manifest>

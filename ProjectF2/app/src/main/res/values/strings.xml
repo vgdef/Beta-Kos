@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">BETA KOS</string>
+    <string name="bk_hint_username">Username</string>
+    <string name="bk_hint_password">Password</string>
+    <string name="bk_error_password">Password must contain at least 8 characters.</string>
+    <string name="bk_hint_name">Name</string>
+    <string name="bk_hint_email">Email</string>
+    <string name="bk_hint_nohp">No Telephone</string>
+    <string name="bk_hint_namakos">Nama Kos</string>
+    <string name="bk_hint_kecamatan">Kecamatan</string>
+    <string name="bk_hint_kodepos">Kode Pos</string>
+    <string name="bk_hint_desc">Description</string>
+    <string name="nama_kos">Nama Kos</string>
+    
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+
+    <string name="context_text">Kos Putri Wailela</string>
+    <string name="content_location">Kota : Ambon\n
+        Kecamatan : Teluk Ambon\n
+        Alamat : Jl. Putuhena No,7\n
+        RT/RW 004/005 (Lorong Bunga)</string>
+    <string name="content_type">Jenis Kos : Putri\n
+    Umur Bangunan : 3 tahun\n
+        Jam Berkunjung : dibatasi </string>
+    <string name="Deskripsi">AC, Kamar Mandi Dalam\n
+        Ruang Makan, Ruang Tamu, Meja\n
+        Kursi, Parkiran Motor </string>
+    <string name="detail">detail</string>
+    <string name="btnSewa">Sewa</string>
+    <string name="owner">Ilham Maaruf</string>
+    <string name="pemilik">Owner</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="tipe">Tipe</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="about">About</string>
+    <string name="tersedia">Ada Kosong</string>
+    <string name="harga">Rp.600.000</string>
+    <string name="photos">2 Photo</string>
+    <string name="clokasi">Lokasi</string>
+    <string name="data_received">Data Diterima</string>
+
+    <string-array name="kecematan">
+        <item>Nusaniwe</item>
+        <item>Sirimau</item>
+        <item>Baguala</item>
+        <item>Teluk Ambon</item>
+        <item>Leitimur Selatan</item>
+    </string-array>
+    
+    <string-array name="harga">
+        <item>Rp.500.000</item>
+        <item>Rp.650.000</item>
+        <item>Rp.1.000.000</item>
+    </string-array>
+
+    <string-array name="jeniskelamin">
+        <item>Laki-Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="gabungsebagai">
+        <item>Pencari Kos</item>
+        <item>Pemilik Kos</item>
+    </string-array>
+</resources>

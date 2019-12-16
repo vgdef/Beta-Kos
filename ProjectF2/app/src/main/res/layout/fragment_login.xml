@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/textlogin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_login"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="125dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rubiklight"
+        android:text="Username  :"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/bk_hint_username"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/rubiklight"
+        android:text="Password  :"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/bk_hint_password"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+        android:id="@+id/btnlogin2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/rubikreguler"
+        android:text="LOGIN"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:shadowColor="@android:color/holo_orange_light"/>
+
+    <TextView
+        android:id="@+id/textregis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="90dp"
+        android:clickable="true"
+        android:fontFamily="@font/rubikreguler"
+        android:text="Belum Punya Akun di Beta Kos? DAFTAR"
+        android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

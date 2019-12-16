@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rubikmedium"
+        android:text="INPUT DATA"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/namakos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="85dp"
+            android:fontFamily="@font/rubiklight"
+            android:text="Nama Kos  : "
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/namakos2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:id="@+id/kecamatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/rubiklight"
+            android:text="Kecamatan  :"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/listItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/kecematan"
+        android:padding="8dp"
+        tools:ignore="DuplicateIds"></Spinner>
+
+        <TextView
+            android:id="@+id/kodepos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/rubiklight"
+            android:text="Kode Pos  :"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/kodepos2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="9"
+            android:hint="@string/bk_hint_kodepos"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/harga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/rubiklight"
+            android:text=" Harga :"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/listItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/harga"
+        android:padding="9dp"
+        android:spinnerMode="dropdown"></Spinner>
+
+        <TextView
+            android:id="@+id/gambar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/rubiklight"
+            android:text="Gambar  :"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:id="@+id/imageupload"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="21dp" />
+        <Button
+            android:id="@+id/btnUploud"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Upload"
+            android:layout_marginLeft="130dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description  :"
+            android:hint="@string/bk_hint_desc"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/rubiklight"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="13dp"
+            android:hint="@string/bk_hint_desc"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:layout_marginLeft="130dp"
+            android:fontFamily="@font/rubikreguler"
+            android:textStyle="bold"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
